@@ -2,5 +2,12 @@ node_modules
 build
 npm-debug.log
 .nyc
-.env
 .DS_Store
+
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
